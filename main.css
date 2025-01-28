@@ -1,0 +1,66 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: hotpink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.heading{
+    color: deeppink;
+    border: 1px solid rgb(247, 45, 156);
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 4px;
+    background-color: white;
+    
+}
+/* styling for contact form */
+.contactform label{
+    display: block;
+    margin-bottom: 8px;
+    font-size: 1.1em;
+    color: deeppink;
+    border: 4px rgb(252, 84, 112);
+    font-weight: bold;
+
+}
+.contactform input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid rgb(252, 84, 112);
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 1em;
+    color: rgb(255, 161, 176);
+  
+}
+.contactform textarea{
+
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid rgb(252, 84, 112);
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 1em;
+    color: rgb(255, 161, 176);
+    resize: vertical;
+    min-height: 100px;
+}
+
+.contactform button{
+    background-color: rgb(233, 29, 97);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1.1em;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+}
+.contactform button:hover{
+    background-color: rgb(255, 56, 89);
+}
